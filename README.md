@@ -17,6 +17,9 @@
 - I.P Addresses
 and more...
 
+# Permission
+- chmod u+x *
+
 # Installation
 - kali_installer.sh
 
