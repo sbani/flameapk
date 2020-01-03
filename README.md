@@ -26,5 +26,16 @@ and more...
 # Run
 - flameapk <apkfile>
 
+# Screenshot
+<div align="center">
+    <img src="https://i.ibb.co/3SyTMZv/flameapk.png" width="600px"</img> 
+</div>
+
+# Original Author & Concept
+- 1N3
+
+# Update
+- Haroon Awan
+
 # Contact
 - mrharoonawan@gmail.com
