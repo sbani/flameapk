@@ -31,7 +31,7 @@ and more...
     <img src="https://i.ibb.co/3SyTMZv/flameapk.png" width="600px"</img> 
 </div>
 
-# Original Author & Concept
+# Author
 - 1N3
 
 # Update
