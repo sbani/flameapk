@@ -51,7 +51,7 @@ and more...
 # Video
 
 <div align="center">
-    <img src="https://streamable.com/aa6pw" width="600px"</img> 
+    <img src="https://streamable.com/mzt66" width="600px"</img> 
 </div>
 
 # Author
