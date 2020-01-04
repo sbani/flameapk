@@ -1,7 +1,4 @@
-# F.A.Q
-- Flame can decompile and extract APK Data
-
-# Extraction List
+# Flameapk Features
 - Endpoints
 - URLs
 - SQL Information
@@ -26,7 +23,19 @@ and more...
 # Run
 - flameapk <apkfile>
 
-# Screenshot
+# Screenshots
+<div align="center">
+    <img src="https://i.ibb.co/3SyTMZv/flameapk.png" width="600px"</img> 
+</div>
+
+<div align="center">
+    <img src="https://i.ibb.co/3SyTMZv/flameapk.png" width="600px"</img> 
+</div>
+
+<div align="center">
+    <img src="https://i.ibb.co/3SyTMZv/flameapk.png" width="600px"</img> 
+</div>
+
 <div align="center">
     <img src="https://i.ibb.co/3SyTMZv/flameapk.png" width="600px"</img> 
 </div>
