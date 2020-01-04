@@ -49,8 +49,7 @@ and more...
 </div>
 
 # Video
-<div align="center">
-<div style="width:100%;height:0px;position:relative;padding-bottom:50.224%;"><iframe src="https://streamable.com/s/mzt66/zprlaj" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div></div>
+https://streamable.com/s/mzt66/zprlaj
 
 # Author
 - 1N3
