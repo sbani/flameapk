@@ -200,7 +200,7 @@ echo ""
 
 echo -e "$OKRED [>] Searching for URL's"
 echo -e ""
-for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH 'http:|https:' $a --color=auto 2>/dev/null; done;
+for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH 'www|http:|https:' $a --color=auto 2>/dev/null; done;
 echo ""
 echo -e "$OKRED [>] Searching for HTTP headers"
 echo -e ""
@@ -256,9 +256,9 @@ echo -e "$OKRED [>] Searching for Api references"
 echo -e ""
 for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH api $a --color=auto 2>/dev/null; done;
 echo ""
-echo -e "$OKRED [>] Searching for Spi references"
+echo -e "$OKRED [>] Searching for Reporting references"
 echo -e ""
-for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH spi $a --color=auto 2>/dev/null; done;
+for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH 'report|reporting' $a --color=auto 2>/dev/null; done;
 echo ""
 echo -e "$OKRED [>] Searching for FTP references"
 echo -e ""
@@ -280,9 +280,9 @@ echo -e "$OKRED [>] Searching for Gopher references"
 echo -e ""
 for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH gopher $a --color=auto 2>/dev/null; done;
 echo ""
-echo -e "$OKRED [>] Searching for HTTPS references"
+echo -e "$OKRED [>] Searching for Mail references"
 echo -e ""
-for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH https $a --color=auto 2>/dev/null; done;
+for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH 'smtp|mail|pop3|exchange' $a --color=auto 2>/dev/null; done;
 echo ""
 echo -e "$OKRED [>] Searching for HTTPS references"
 echo -e ""
@@ -320,13 +320,17 @@ echo -e "$OKRED [>] Searching for Dump references"
 echo -e ""
 for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH dump $a --color=auto 2>/dev/null; done;
 echo ""
-echo -e "$OKRED [>] Searching for DB references"
+echo -e "$OKRED [>] Searching for API references"
 echo -e ""
-for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH db $a --color=auto 2>/dev/null; done;
+for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH _api $a --color=auto 2>/dev/null; done;
 echo ""
-echo -e "$OKRED [>] Searching for HTTP Put references"
+echo -e "$OKRED [>] Searching for API references"
 echo -e ""
-for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH put $a --color=auto 2>/dev/null; done;
+for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH api_ $a --color=auto 2>/dev/null; done;
+echo ""
+echo -e "$OKRED [>] Searching for API references"
+echo -e ""
+for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH _api_ $a --color=auto 2>/dev/null; done;
 echo ""
 echo -e "$OKRED DONE!"
 echo -e ""
