@@ -20,7 +20,7 @@ echo -e ""
 echo -e "$RESET"
 chmod +rx flameapk
 cp flameapk /usr/bin/flameapk
-apt-get install unzip smali apktool dex2jar
+apt-get install unzip smali apktool dex2jar dexdump
 git clone https://github.com/skylot/jadx /usr/share/jadx
 cd /usr/share/jadx
 ./gradlew dist
