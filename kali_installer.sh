@@ -18,8 +18,8 @@ echo -e "$OKGREEN"
 echo -e " [+] Installation in Progress ..."
 echo -e ""
 echo -e "$RESET"
-chmod +rx reverse-apk
-cp reverse-apk /usr/bin/reverse-apk
+chmod +rx flameapk
+cp flameapk /usr/bin/flameapk
 apt-get install unzip smali apktool dex2jar
 git clone https://github.com/skylot/jadx /usr/share/jadx
 cd /usr/share/jadx
