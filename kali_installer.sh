@@ -8,10 +8,8 @@ RESET='\e[0m'
 
 echo -e ""
 echo -e "$OKORANGE                                           "
-echo -e " [+] Author : --=[( by 1N3@CrowdShield )]=--        "
-echo -e " [+] Web    :  --=[( https://crowdshield.com )]=--  "
-echo -e " [+] Update : --=[( by Haroon Awan     )]=--        "
-echo -e " [+] Web    :  --=[( http://bugbountylive.com )]=-- "
+echo -e " [+] Authors : 		--=[(  1N3@CrowdShield / Haroon Awan )]=--        "
+echo -e " [+] Web     :  --=[( https://crowdshield.com http://bugbountylive.com )]=--  "
 echo -e ""
 echo -e "$RESET"
 echo -e "$OKGREEN"
