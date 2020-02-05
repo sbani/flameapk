@@ -347,6 +347,11 @@ sleep 2
 echo -e "$RESET"
 for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH google $a --color=auto 2>/dev/null; done;
 echo ""
+echo -e "$OKGREEN [>] Searching for Firebase references"
+sleep 2
+echo -e "$RESET"
+for a in `find $PWD/$1-jadx | egrep -i .java`; do egrep -nH firebaseio $a --color=auto 2>/dev/null; done;
+echo ""
 echo -e "$OKGREEN [>] Searching for Facebook references"
 sleep 2
 echo -e "$RESET"
