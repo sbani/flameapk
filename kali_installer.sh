@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -xe
+
 OKBLUE='\033[94m'
 OKRED='\033[91m'
 OKGREEN='\033[92m'
